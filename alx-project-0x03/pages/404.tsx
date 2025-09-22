@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { FaHome } from 'react-icons/fa'; 
+import Link from "next/link";
+import { FaHome } from "react-icons/fa";
 
 const Custom404 = () => {
   return (
@@ -7,12 +7,13 @@ const Custom404 = () => {
       {/* Main Heading */}
       <h1 className="text-6xl font-bold mb-4">Oops! 😱</h1>
       <p className="text-2xl mb-8">
-        We can't seem to find the page you're looking for.
+        We can not seem to find the page you are looking for.
       </p>
 
       {/* Funny Message */}
       <p className="text-lg mb-8 text-center max-w-md">
-        Maybe it was abducted by aliens 👽, or it just took a wrong turn into the Internet wilderness! Either way, it's not here.
+        Maybe it was abducted by aliens 👽, or it just took a wrong turn into
+        the Internet wilderness! Either way, it is not here.
       </p>
 
       {/* Button to navigate back */}
@@ -25,6 +26,6 @@ const Custom404 = () => {
       </Link>
     </div>
   );
-}
+};
 
 export default Custom404;
