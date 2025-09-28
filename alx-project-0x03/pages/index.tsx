@@ -1,3 +1,5 @@
+import { PageRouteProps } from "./index";
+
 const Home = () => {
   return (
    <div>
