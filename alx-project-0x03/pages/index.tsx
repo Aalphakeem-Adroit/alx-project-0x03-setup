@@ -1,5 +1,6 @@
 import { PageRouteProps } from "./index";
 import { useRouter }
+import Button from "@/components/common/Button";
 
 const router = useRouter();
 const Home = () => {
@@ -11,5 +12,5 @@ const Home = () => {
 }
 
 export default Home;
-export default function Home()
+export default function Home();
 
